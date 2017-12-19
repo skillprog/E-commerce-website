@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   Antons notes: following code is just added to reset the css structure so the browser doesnt chose font etc..
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/* structure of website from here on */
+
+body {background-color: #e8e8e8;}
+
+.wrapper{
+
+	width: 100%
+	height:auto;
+	margin:auto;
+}
+
+.header{
+	width: 100%;
+	height: 75px;
+	background-color: black; 
+	font-family: sans-serif;
+	text-align: center;
+	color: white;	
+}
+
+#subadminhead{
+
+	width: 100%;
+	height:40px;
+	background-color: silver;
+
+}
+
+#sidemenu{
+
+	width: 200px;
+	height: 800px;
+	float: left;
+	background-color: #e2e2e2;
+
+}
+
+#menu li{
+
+	list-style: none;
+	display: inline;
+}
+
+#menu a{
+
+	color: #fcfcf2;
+	text-decoration: none;
+	padding: 10px;
+	margin: 6px;
+	font-size: 22px;
+	padding-top: 10px;
+}
+
+
+
+#menu a:hover{
+
+	color: orange;
+}
+
+#menu li a.active-page
+{
+	color:darkorange;
+}
+
+#content{
+
+	width: 100%;
+	height: 800px;
+	background-color: #fcfcfc;
+}
+
+#contentCart{
+
+	width: 100%;
+	height: 100%;
+	background-color: #fcfcfc;
+}
+
+#cartstyle{
+
+	width:100%;
+	height:40px;
+	background-color: #3a87ad;
+}
+
+#productBox{
+
+	width: 100%;
+	height: 100%;
+	background-color: ghostwhite;
+}
+
+#productBoxCart{
+
+	width: 100%;
+	height: auto;
+	background-color: ghostwhite;
+}
+
+#product{
+	width:900px;
+	text-align:center;
+
+}
+
+#singleproduct{
+
+	float: left;
+	margin-left:20px;
+	margin-top: 20px;
+	padding: 10px;
+	border: solid 2px black;
+
+}
+
+#cartdiv{
+
+	height: 300px;
+	width: 100%;
+	border: solid 2px black;
+}
+
+#reviewDis{
+	float: right;
+	margin-right: 300px;
+	margin-top: 200px;
+	height:auto;
+	width: 400px;
+	border: solid 2px black;
+}
+
+#reviews{
+
+	float: right;
+	width: 200px;
+	height:auto;
+	border: 2px solid red;
+}
+
+#footer{
+	width: 100%;
+	height: 50px;
+	background-color:black;
+}
+
+
+
+
+
